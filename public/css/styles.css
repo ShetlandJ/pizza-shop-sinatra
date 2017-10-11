@@ -8,6 +8,9 @@ h1 {
   margin-top: 25px;
 }
 
+p {
+  padding: 5px 0px 0px 5px;
+}
 
 /*menu navigation*/
 
@@ -53,10 +56,80 @@ li a:hover {
   justify-content: space-around;
 }
 
-#btn {
+article {
+  background-color: lightGrey;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+#btn-get {
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  font-size: 1.15em;
+  cursor:pointer;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#btn-edit {
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  font-size: 1.15em;
+  cursor:pointer;
+  height: 30px;
+}
+
+#btn-delete {
   background-color: tomato;
   color: white;
   border-radius: 5px;
   border: 0;
   font-size: 1.15em;
+  cursor: pointer;
+  /*margin-top: 5px;*/
+  height: 30px;
+}
+
+#btn-new-pizza {
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  font-size: 1.15em;
+  cursor:pointer;
+  margin-top: 20px;
+}
+
+select {
+  height: 50px;
+}
+
+option {
+font-size: 20px;
+}
+
+/*#site-form {
+  margin-top: 25px;
+  display: flex;
+  flex-direction; column;
+}*/
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 50px 0px 50px;
+}
+
+input {
+  height: 50px;
+}
+
+label {
+  margin-top: 18px;
 }

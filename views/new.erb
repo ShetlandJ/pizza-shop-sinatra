@@ -1,3 +1,5 @@
+<div id="site-form">
+
 <form action="/pizzas" method="POST">
 
   <label for="firstName">First name:</label>
@@ -6,16 +8,20 @@
   <label for="lastName">Last name:</label>
   <input type="text" name="last_name" id="lastName"/ >
 
-  <label for="pizzaSelect">Select a pizza:</label>
+  <label for="pizzaSelect"></label>
   <select name="topping" id="pizzaSelect">
-    <option disabled selected value> -- select an option -- </option>
-    <option value="Scrummy">Scrummy</option>
-    <option value="Strawberry">Strawberry</option>
+    <option disabled selected value> -- select a Pizza -- </option>
+    <option value="Pepperoni">Pepperoni (£10)</option>
+    <option value="Meatfeast">Meatfeast (£10)</option>
+    <option value="Mushroom">Mushroom (£10)</option>
+    <option value="BBQ Chicken">BBQ Chicken (£10)</option>
+    <option value="Four Cheese">Four Cheese (£10)</option>
   </select>
 
   <label for="quantity">Quantity:</label>
   <input type="number" min=0 max=999 name="quantity" id="quantity"/ >
 
-  <input type="submit" value="Submit">
+  <input type="submit" value="Order Pizza" id="btn-new-pizza">
 
 </form>
+</div>

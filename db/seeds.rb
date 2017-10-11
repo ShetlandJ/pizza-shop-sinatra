@@ -16,5 +16,5 @@ pizza2 = Pizza.new({
   "quantity" => 12
 })
 
-pizza1.save
-pizza2.save
+pizza1.save()
+pizza2.save()

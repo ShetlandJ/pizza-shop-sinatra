@@ -12,6 +12,7 @@ end
 
 # New should go before show because :id can be 1 or 'new' or anything
 get '/pizzas/new' do
+  @pizza = Pizza.new(params)
   erb ( :new )
 end
 
